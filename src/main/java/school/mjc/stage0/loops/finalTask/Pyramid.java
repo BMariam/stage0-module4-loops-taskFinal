@@ -12,9 +12,6 @@ public class Pyramid {
 			for (int j = 2; j <= i + 1; ++j) {
 				System.out.print(j);
 			}
-			for (int j = i + 2; j < cathetusLength; ++j) {
-				System.out.print(" ");
-			}
 			System.out.println();
 		}
     }
